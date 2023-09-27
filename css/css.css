@@ -1,4 +1,104 @@
-h1{
+.Container_father{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_1,.container_2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.photo>img{
+    height: 500px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.photo{
+    position: relative;
+}
+.img_sopra{
+    position: absolute;
+    left: 0px;
+    opacity: 0;
+}
+.img_sopra:hover{
+    opacity: 1;
+}
+
+.nome-brand{
+    margin: 0;
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+}
+
+.nome_capo{
+    margin: 0;
+    position: relative;
+    left: 10px;
+    font-size: 19px;
+    font-weight: bold;
+} 
+.prezzo{
+    margin: 0;
+    position: relative;
+    left: 10px;
+    font-size: 13px;
+    font-weight: bold; 
+    color: red;
+}
+.prezzo_saldo{
+    margin: 0;
+    position: relative;
+    left: 60px;
+    bottom: 18px;
+    text-decoration-line: line-through;
+}
+.percentuale{
+    display: inline;
+    position: relative;
+    background-color: red;
     color: white;
-    background-color: pink;
+    padding: 2px 10px;
+    left:10px;
+    bottom: 150px;
+}
+.cuore{
+    display: inline;
+    position: relative;
+    background-color: white;
+    padding: 5px 13px;
+    left:256px;
+    bottom: 538px; 
+}
+.cuore_due{
+    display: inline;
+    position: relative;
+    background-color: white;
+    padding: 5px 13px;
+    left:312px;
+    bottom: 506px; 
+}
+
+
+
+.sostenibilità_1{
+    display: inline;
+    position: relative;
+    left: -35px;
+    bottom: 150px;
+    background-color: green;
+    color: white;
+    padding: 2px 10px;
+}
+.sostenibilità_2{
+    display: inline;
+    position: relative;
+    left: -38px;
+    bottom: 156px;
+    background-color: green;
+    color: white;
+    padding: 2px 10px;
 }
